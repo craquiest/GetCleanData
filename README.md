@@ -5,20 +5,20 @@ The goal of this project is to provide a tidy summarized dataset as an output,
 using a R script which uses the orignial UCI dataset as input.
 
 This repo contains the following elements:
-- run_analysis.R : this is the R script which loads the data in R, performs various
+- **run_analysis.R** : this is the R script which loads the data in R, performs various
 operations to put the data together, summarizes it, and produces the output text file.
-We will explaining in details the steps performed in the script in this document. The
-script itself is commented in detail at each performed step.
+We will explain in details the steps performed in the script in this document. The
+script itself is commented in detail at each step.
 
-- README.md : this doucment, where we explain in detail the analysis perfomend in
+- **README.md** : this doucment, where we explain in detail the analysis perfomend in
 run_analysis.R, and present the different pieces of this repository.
 
-- SummaryData_Samsung.txt : a copy of the output produced by run_analysis, which
+- **SummaryData_Samsung.txt** : a copy of the output produced by run_analysis, which
 contains a summary of the measurements calculated in UCI dataset, processed and
 presented in a form ready to perform further analysis. A detailed descroiption
 on this files content is provided in CodeBook.md
 
-- CodeBook.md :  a detailed description of the output file SummaryData_Samsung.txt
+- **CodeBook.md** :  a detailed description of the output file SummaryData_Samsung.txt
 
 
 # What run_analysis.R does
